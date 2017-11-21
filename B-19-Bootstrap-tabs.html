@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bootstrap Tabs</title>
+        <link rel="stylesheet" href="bootstrap.min.css"/>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container"> <!-- início do container -->
+            <h1>Página do curso de Bootstrap.</h1>
+            <h2>Bootstrap Tabs</h2>
+            <hr>
+            <p>Exemplo de uso do <strong>tabs</strong> </p>
+            
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#home" data-toggle="tab">HOME</a></li>
+                <li><a href="#sobre" data-toggle="tab">SOBRE</a></li>
+                <li><a href="#contato" data-toggle="tab">CONTATO</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="home" class="tab-pane active in fade">
+                    <h3>HOME</h3>
+                    <P>Conteúdo da HOME</P>
+                </div>
+                <div id="sobre" class="tab-pane fade">
+                    <h3>SOBRE</h3>
+                    <P>Página sobre</P>
+                </div>
+                <div id="contato" class="tab-pane fade">
+                    <h3>CONTATO</h3>
+                    <P>Formulário de contato</P>
+                </div>
+            </div>
+        </div> <!--................. fim do container -->
+    </body>
+</html>
