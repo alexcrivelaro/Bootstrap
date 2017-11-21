@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Collapse em panels</title>
+        <link rel="stylesheet" href="bootstrap.min.css"/>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container"> <!-- início do container -->
+            <h1>Página do curso de Bootstrap.</h1>
+            <h2>Collapse em panels</h2>
+            <hr>
+            
+            <p>Exemplo de uso do <strong>collapse</strong> </p>
+            <button data-toggle="collapse" data-target="#teste1">Collapse - clique aqui</button>
+            <div id="teste1" class="collapse">
+                Exemplo do uso do collapse...
+            </div>
+            <hr>
+            
+           <div class="panel panel-default">
+               <div class="panel-heading">
+                   <h4 class="panel-title">
+                        <a href="#teste" data-toggle="collapse">Granito - clique aqui - Collapse em panels</a>
+                   </h4>
+               </div>
+               <div id="teste" class="collapse panel-collapse">
+                    <div class="panel-body">
+                        A explicação muito complexa do granito.
+                    </div>
+               </div>
+           </div>
+        </div> <!--................. fim do container -->
+    </body>
+</html>
