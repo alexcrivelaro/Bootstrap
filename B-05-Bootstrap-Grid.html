@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bootstrap Grid</title>
+        <link rel="stylesheet" href="bootstrap.min.css"/>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap.min.js"></script>
+        <style>
+            .blue {
+                background-color: #b1b1f8;
+            }
+            .green{
+                background-color: #b2f1b2;
+            }
+            .black {
+                background-color: #6e6b6b;
+            }
+            .red {
+                background-color: #f1abab;
+            }
+            .row {
+                color: white;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container"> 
+            <h1>Página do curso de Bootstrap.</h1>
+            <h2>Bootstrap Grid</h2>
+            <p>Possui 12 colunas</p>
+            <ul>
+                <li>col-xs (extra small) = celular, </li>
+                <li>col-sm (small)= tablet,</li> 
+                <li>col-md (medio)= desktop </li>
+                <li>col-lg (large)= monitores de 21 polegadas ou mais. </li>
+            </ul>
+            <p>Estabelecemos uma linha com a div row que pode ser dividida em até 12 colunas.</p>
+            <p>Linha com 3 colunas - divisão 4-4-4:</p>
+            <div class="row">
+                <div class="col-xs-4 blue" style="text-align:center">1</div>
+                <div class="col-xs-4 green" style="text-align:center">2</div>
+                <div class="col-xs-4 black" style="text-align:center">3</div>
+            </div><br>
+            <p>Linha com 4 colunas - divisão 3-3-3-3:</p>
+            <div class="row">
+                <div class="col-xs-3 blue" style="text-align:center">1</div>
+                <div class="col-xs-3 green" style="text-align:center">2</div>
+                <div class="col-xs-3 black" style="text-align:center">3</div>
+                <div class="col-xs-3 red" style="text-align:center">4</div>
+            </div><br>
+            <p>Linha com 3 colunas - divisão 6-3-3:</p>
+            <div class="row">
+                <div class="col-xs-6 blue" style="text-align:center">1</div>
+                <div class="col-xs-3 green" style="text-align:center">2</div>
+                <div class="col-xs-3 black" style="text-align:center">3</div>
+            </div><br>
+        </div>
+    </body>
+</html>
