@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bootstrap Modal</title>
+        <link rel="stylesheet" href="bootstrap.min.css"/>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container"> <!-- início do container -->
+            <br><br>
+            <h1>Página do curso de Bootstrap.</h1>
+            <h2>Bootstrap Modal</h2>
+            <hr>
+            <h3>Exemplo de uso do <strong>modal</strong>.</h3>
+   
+            <button class="btn btn-info" data-toggle="modal" data-target="#janela">Abrir Modal</button>
+
+            <div id="janela" class="modal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Título do meu modal</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Conteúdo do meu modal</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!--................. fim do container -->
+    </body>
+</html>
